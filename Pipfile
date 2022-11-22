@@ -9,6 +9,10 @@ black = "*"
 matplotlib = "*"
 requests = "*"
 loguru = "*"
+extcolors = "*"
+colormap = "*"
+pandas = "*"
+easydev = "*"
 
 [dev-packages]
 
