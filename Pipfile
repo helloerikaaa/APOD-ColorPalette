@@ -13,6 +13,7 @@ extcolors = "*"
 colormap = "*"
 pandas = "*"
 easydev = "*"
+streamlit = "*"
 
 [dev-packages]
 
