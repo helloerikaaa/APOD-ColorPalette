@@ -12,7 +12,7 @@ def main():
 
     image = ImageHandler().get_image(APODPaths.image_path)
     c_extractor = ColorExtractor(image)
-    c_extractor.get_color_palette()
+    c_extractor.get_color_list()
 
 
 if __name__ == "__main__":
