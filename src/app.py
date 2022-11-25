@@ -1,9 +1,9 @@
 import streamlit as st
 
-from src.consts.paths import APODPaths
-from src.image.image_handler import ImageHandler
-from src.color.color_extractor import ColorExtractor
-from src.api.api_handler import download_apod_image
+from consts.paths import APODPaths
+from image.image_handler import ImageHandler
+from color.color_extractor import ColorExtractor
+from api.api_handler import download_apod_image
 
 st.set_page_config(layout="wide")
 st.markdown(
