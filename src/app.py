@@ -40,8 +40,7 @@ st.markdown(
 )
 
 img = download_apod_image()
-
-image = ImageHandler().handle_image(img)
+image = ImageHandler().resize_img(img)
 color_extractor = ColorExtractor(image)
 colors = color_extractor.get_color_list()
 

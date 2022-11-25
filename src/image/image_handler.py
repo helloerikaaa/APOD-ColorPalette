@@ -5,11 +5,7 @@ from consts.consts import RESIZE_WIDTH
 
 
 class ImageHandler:
-    def handle_image(self, img):
-        resized_img = self._resize_img(img)
-        return resized_img
-
-    def _resize_img(self, img):
+    def resize_img(self, img):
         logger.info("Resizing image")
         h, w = img.size
         w_percent = RESIZE_WIDTH / float(h)

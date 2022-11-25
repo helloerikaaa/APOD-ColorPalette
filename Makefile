@@ -3,3 +3,7 @@
 black:
 	python -m black --version
 	python -m black .
+
+.PHONY: run
+run:
+	streamlit run src/app.py
