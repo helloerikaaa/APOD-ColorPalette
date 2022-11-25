@@ -5,14 +5,9 @@ from consts.consts import RESIZE_WIDTH
 
 
 class ImageHandler:
-    def get_image(self, img_path):
-        img = self._load_image(img_path)
+    def handle_image(self, img):
         resized_img = self._resize_img(img)
         return resized_img
-
-    def _load_image(self, img_path):
-        logger.info("Loading image from disk")
-        return Image.open(img_path)
 
     def _resize_img(self, img):
         logger.info("Resizing image")
