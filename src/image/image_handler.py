@@ -1,7 +1,7 @@
 from PIL import Image
 from loguru import logger
 
-from src.consts.consts import RESIZE_WIDTH
+from consts.consts import RESIZE_WIDTH
 
 
 class ImageHandler:
