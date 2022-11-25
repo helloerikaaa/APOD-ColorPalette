@@ -39,9 +39,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-download_apod_image()
+img = download_apod_image()
 
-image = ImageHandler().get_image(APODPaths.image_path)
+image = ImageHandler().handle_image(img)
 color_extractor = ColorExtractor(image)
 colors = color_extractor.get_color_list()
 
