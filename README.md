@@ -5,7 +5,7 @@ The application is deployed to this url https://helloerikaaa-apod-colorpalette-s
 
 ## 🧐 About <a name = "about"></a>
 
-This simple project intention is to create a small application using streamlit to generate a color palette for the current picture of the APOD (A picture of the day) service using NASA's API to retreive the images.
+Simple project to generate the color palette of the current picture of the APOD (A picture of the day) service using NASA's API to retreive the images. The application is deployed using streamlit.
 
 ## 🔖 Project structure
 
